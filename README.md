@@ -2,10 +2,10 @@
 * certificategenerator.herokuapp.com
 
 ## Use
-  ![alt text](http://url/to/working.jpg)
+  ![alt Browser_view](https://raw.githubusercontent.com/suryapratapsinghsuryavanshi/Certificate-Generator/main/woring.jpg)
   
   
   ## Certificate
-   ![alt text](http://url/to/cert.jpg)
+   ![alt Certificate](https://raw.githubusercontent.com/suryapratapsinghsuryavanshi/Certificate-Generator/main/cert.jpg)
    
   ### This web application are usging PDF-lib.js or FileServer.js 
