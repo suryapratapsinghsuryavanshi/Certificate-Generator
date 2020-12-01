@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+
+body {
+    font-family: system-ui;
+    text-align: center;
+}
+
+header img {
+    height: 120px;
+    border-radius: 50%;
+}
+
+header h1 a {
+    text-decoration: none;
+    color:gray;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+main label{
+    margin-top: 1.5rem;
+}
+
+main input[name="name"] {
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    border:none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+main button {
+    padding:0.5rem 0.9rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main button:hover {
+    background-color:  gray;
+    color:white;
+}
+
+@media (prefers-color-scheme:dark){
+    body{
+        background-color: #212121;
+        color:white;
+    }
+}

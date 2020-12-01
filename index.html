@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>T-Software Cert Genretor</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo">
+        <h2>Get Your Certificate</h2>
+        <h1><a target="_blank" href="https://t-software4.blogspot.com/">By T-Software Education Accedmye</a></h1>
+    </header>
+
+    <main>
+        <label for="name">Enter Your Name</label>
+        <input type="text" name="name" id="name" autocapitalize="name" placeholder="Your Name" required> 
+        <button id="submit">Get Certificate</button>
+    </main>
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="FileSever.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
