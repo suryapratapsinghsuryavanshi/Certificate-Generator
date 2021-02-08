@@ -8,4 +8,4 @@
   ## Certificate
    ![alt Certificate](https://raw.githubusercontent.com/suryapratapsinghsuryavanshi/Certificate-Generator/main/cert.jpg)
    
-  ### This web application are usging PDF-lib.js or FileServer.js 
+  ### This web application are using PDF-lib.js or FileServer.js 
